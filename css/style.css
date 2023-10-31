@@ -1,0 +1,117 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #b3e0ff; /* Sky-blue background */
+  }
+  
+  header {
+    background-color: #0099cc; /* Darker blue for the header */
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+
+  h2 {
+    text-align: center;  
+  }
+  
+  .product-list {
+    margin-bottom: 20px;
+  }
+  
+  .product-box {
+    border: 1px solid #0099cc; /* Darker blue border for product boxes */
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+  }
+  
+  .product {
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin: 10px;
+    display: inline-block;
+    width: 113px;
+    text-align: center;
+  }
+
+  .product-name {
+    font-size: 18px;
+    margin: 10px 0;
+  }
+
+  .product-price {
+    font-size: 16px;
+    color: #333;
+  }
+
+  .add-to-cart {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 15px;
+    margin-top: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    font-family: 'Open Sans', sans-serif;
+    border-radius: 5px;
+  }
+
+  .add-to-cart:hover {
+    background-color: #0056b3;
+  }
+
+
+  
+  .product button {
+    background-color: #0099cc;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  th, td {
+    padding: 10px;
+    text-align: left;
+  }
+  
+  th {
+    background-color: #0099cc;
+    color: #fff;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #b3e0ff; /* Lighter blue for cart table rows */
+  }
+  
+  .remove-button {
+    background-color: #D9534F;
+    /* background-color: #f44336; */
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    font-family: 'Open Sans', sans-serif;
+    border-radius: 5px;
+  }
+
+  .remove-button:hover {
+    background-color: #f44336;
+  }
+  
